@@ -1,3 +1,18 @@
+.main-page {
+    background-color: linear-gradient(90deg, red, blue);
+}
+
+.main-page-title {
+    text-align: center;
+}
+
+.front-page-link {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
 
 .about-me-background-color {
   background-color: lightblue;
@@ -49,16 +64,6 @@ body {
 }
 
 
-h1 {
-  text-align: center;
-}
-h2 {
-  text-align: center;
-}
-li {
-  text-align: center;
-}
-
 .underconstructionmarquee {
   animation-name:marquee;
   animation-duration:15s;
@@ -66,9 +71,6 @@ li {
   animation-iteration-count: infinite;
 }
 
-.main-page-gradient {
-  background: linear-gradient(to bottom right, blue, pink);
-}
 
 
 @keyframes marquee {
