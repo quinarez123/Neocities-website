@@ -2,6 +2,10 @@
     background-color: linear-gradient(90deg, red, blue);
 }
 
+.about-me-div {
+  border: 5cm;
+}
+
 .main-page-title {
     text-align: center;
 }
