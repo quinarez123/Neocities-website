@@ -2,8 +2,18 @@
     background-color: linear-gradient(90deg, red, blue);
 }
 
-.about-me-div {
-  border: 5cm;
+h1 {
+  text-align: center;
+}
+
+.link-div {
+  border: 1cm;
+  border-style: groove;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  margin-bottom: 50px;
 }
 
 .main-page-title {
@@ -47,24 +57,9 @@ body {
   background-color:rgb(255, 127, 0);
 }
 
-.notice-div {
-  margin:auto;
-  background-color:rgb(255, 127, 0);
-  width: 500px;
-  height: auto;
-  
-}
-
 .marquee-text {
   font-size: 50px;
   color:rgb(255, 0 ,127)
-}
-
-.bruh {
-  width:150px;
-  height:150px;
-  display:inline;
-  padding-left:60px;
 }
 
 
@@ -73,6 +68,28 @@ body {
   animation-duration:15s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
+}
+
+.chon-chon-div {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  right: 0px;
+  rotate: 15deg;
+}
+
+.escape-the-matrix-div {
+  width: fit-content;
+  height: fit-content;
+  position:absolute;
+  top: 400px;
+  left: 50px;
+  rotate: -15deg;
+}
+
+.footer {
+  position: absolute;
+  bottom: 50px;
 }
 
 
@@ -86,3 +103,22 @@ body {
   }
 }
 
+.chill-survey-div {
+  position:absolute;
+  margin-top: 100px;
+  margin-left: 400px;
+  font-size: 30px;
+}
+
+.chill-survey-notice {
+  text-align: center;
+  font-size: 50px;
+}
+
+.surprise-face-guy {
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
