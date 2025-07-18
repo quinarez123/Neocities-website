@@ -7,13 +7,37 @@ h1 {
 }
 
 .link-div {
-  border: 1cm;
-  border-style: groove;
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+  border: 10px;
+  boder-radius: 30px;
+  border-style: double;
+  width: 50%;
+  margin: auto auto;
   height: auto;
   margin-bottom: 50px;
+}
+
+.link-div-music {
+  border: 10px;
+  boder-radius: 30px;
+  border-style: double;
+  width: 50%;
+  margin: auto auto;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.link
+
+.link-div a:link {
+  color:antiquewhite;
+}
+
+.link-div a:hover {
+  background: blueviolet;
+}
+
+.link-div a:visited  {
+  color: chartreuse;
 }
 
 .main-page-title {
@@ -25,6 +49,7 @@ h1 {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
 
 
 
@@ -71,25 +96,44 @@ body {
 }
 
 .chon-chon-div {
-  width: fit-content;
   height: fit-content;
-  position: absolute;
-  right: 0px;
-  rotate: 15deg;
+  width: fit-content;
+  display: inline;
+  position: relative;
+  bottom:300px;
+  right: 100px;
+}
+
+.chon-chon-picture  {
+ max-width: 50%;
+ height: auto;
+  display: inline;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  margin-left: 60px;
+}
+
+blockquote {
+  color: white;
+  font-size: 90%;f
 }
 
 .escape-the-matrix-div {
   width: fit-content;
   height: fit-content;
-  position:absolute;
-  top: 400px;
-  left: 50px;
   rotate: -15deg;
 }
 
+.corporate-gif {
+  width: 50%;
+  position:absolute;
+  bottom: 300px;
+  left:110px;
+
+}
+
 .footer {
-  position: absolute;
-  bottom: 50px;
+  
 }
 
 
@@ -104,10 +148,8 @@ body {
 }
 
 .chill-survey-div {
-  position:absolute;
-  margin-top: 100px;
-  margin-left: 400px;
-  font-size: 30px;
+  margin-top: 40px;
+  color: chocolate;
 }
 
 .chill-survey-notice {
@@ -121,4 +163,52 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+.main-page-div {
+  
+  background-image: linear-gradient(45deg, blue, red);
+  border: dashed red;
+  border-radius: 30px;
+  width: fit-content;
+  max-width: 70%;
+  height:fit-content;
+  margin: auto;
+}
+
+.chill-link {
+  color:coral
+}
+
+/* Chill Survey */
+.chill-survey-div {
+  border: solid 5px black;
+  max-width: 40%;
+  margin: 0 auto;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+}
+
+.submit-button {
+  display: block;
+  width: 10%;
+  height: 15%;
+  margin: 0 auto;
+
+}
+
+.chill-survey-html {
+  background-color:goldenrod;
+}
+
+.yaya {
+  font-size: 50px;
+  text-align: center;
+  color: pink;
 }

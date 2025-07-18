@@ -3,10 +3,43 @@
 <head>
     <link href="stylesheet.css" rel="stylesheet">
 </head>
-<body>
+<body class="chill-survey-html">
 <h1>Chill Survey</h1>
 <p class="chill-survey-notice">Chill survey coming sooon</p>
 <img src="images/surprised-face.png" class="surprise-face-guy">
+<!--<link rel="stylesheet" href="https://unpkg.com/98.css">-->
+
+
+
+<div class="chill-survey-div">
+    <form class="chill-survey-form">
+        <fieldset>
+            <legend> Input your answers </legend>
+        <label>Name: <input required type="text" placeholder="Enter name"></input></label>
+        <label>Favorite food: <input required type="text" placeholder="Favorite food"></input></label>
+        <label>Favorite Video Game: <input required type="text" placeholder="Favorite Video Game"></input></label>
+        </fieldset>
+
+        <fieldset>
+            <legend> Favorite Zelda Game?</legend>
+            <label>Legend of Zelda: Windwaker <input checked type="radio" name="radio-name"></label>
+            <label>Legend of Zelda: Windwaker <input type="radio" name="radio-name"></label>
+            <label>Legend of Zelda: Windwaker <input type="radio" name="radio-name"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend> Would you rather?</legend>
+            <p>Check all that apply: </p>
+            <label>Would you rather run into traffic? <input type="checkbox"></input></label>
+            <label>Or would you rather not? <input type="checkbox"></input></label>
+        </fieldset>
+
+    <input class="submit-button" type="submit" onclick="myFunction()"></input>
+    </form>
+</div>
+
+<p class="yaya">hello kitty</p>
+
 
 </body>
 </html>
