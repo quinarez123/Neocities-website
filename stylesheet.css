@@ -1,6 +1,4 @@
-.main-page {
-    
-}
+
 p {
   color: antiquewhite;
 }
@@ -178,7 +176,8 @@ blockquote {
 }
 
 .main-page-div {
-  background-color:darkred;
+  /*background-color:darkred;*/
+  background: repeat url("images/bricks-background-2.gif");
   border: ridge 10px white;
   margin: auto auto;
   width: 50%;
