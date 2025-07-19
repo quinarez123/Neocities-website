@@ -1,9 +1,13 @@
 .main-page {
-    background-color: linear-gradient(90deg, red, blue);
+    
+}
+p {
+  color: antiquewhite;
 }
 
 h1 {
   text-align: center;
+  color: white;
 }
 
 .link-div {
@@ -15,6 +19,8 @@ h1 {
   height: auto;
   margin-bottom: 50px;
 }
+
+
 
 .link-div-music {
   border: 10px;
@@ -118,22 +124,11 @@ blockquote {
   font-size: 90%;f
 }
 
-.escape-the-matrix-div {
-  width: fit-content;
-  height: fit-content;
-  rotate: -15deg;
-}
 
-.corporate-gif {
-  width: 50%;
-  position:absolute;
-  bottom: 300px;
-  left:110px;
-
-}
 
 .update-header {
   text-align: center;
+  color: white;
 }
 
 .updates-div {
@@ -142,6 +137,7 @@ blockquote {
   padding: 5px 5px;
   width: fit-content;
   height: fit-content;
+  color: antiquewhite;
 }
 
 .updates-div ul, li {
@@ -151,9 +147,6 @@ blockquote {
 
 }
 
-.footer {
-  
-}
 
 
 
@@ -185,14 +178,64 @@ blockquote {
 }
 
 .main-page-div {
-  background-image: linear-gradient(45deg, blue, red);
-  border: dashed red;
-  border-radius: 30px;
-  width: fit-content;
-  max-width: 70%;
-  height:fit-content;
+  background-color:darkred;
+  border: ridge 10px white;
+  margin: auto auto;
+  width: 50%;
+  width: 50%;
+  padding: 10px;
+}
+
+/* About me section */
+.about-me-div {
+  width: 30%;
+  height: 30%;
+  margin: 20px auto;
+
+}
+.about-me-div p {
+  text-align: center;
+}
+.about-me-div img {
+  width: 50%;
+  height: 50%;
+  display: block;
   margin: auto;
 }
+
+/* Gaming corner section */
+.gaming-corner-div {
+  width: 30%;
+  height: 30%;
+  margin: 20px auto;
+}
+.gaming-corner-div p {
+  text-align: center;
+}
+.gaming-corner-div img {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: auto;
+}
+
+/*Music Zone Corner */
+.music-zone-div {
+  width: 30%;
+  height: 30%;
+  margin: auto
+}
+.music-zone-div p {
+  text-align: center;
+}
+.music-zone-div img {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: auto;
+}
+
+
 
 .chill-link {
   color:coral
