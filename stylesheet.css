@@ -132,6 +132,25 @@ blockquote {
 
 }
 
+.update-header {
+  text-align: center;
+}
+
+.updates-div {
+  border: 2px solid blue;
+  margin: auto auto;
+  padding: 5px 5px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.updates-div ul, li {
+  margin-bottom: 1px;
+  margin-top: 1px;
+  font-style: italic;
+
+}
+
 .footer {
   
 }
@@ -166,7 +185,6 @@ blockquote {
 }
 
 .main-page-div {
-  
   background-image: linear-gradient(45deg, blue, red);
   border: dashed red;
   border-radius: 30px;
@@ -211,4 +229,38 @@ label {
   font-size: 50px;
   text-align: center;
   color: pink;
+}
+
+/* My gaming corner page */
+
+.currently-playing-div {
+  border: solid 4px black;
+  max-width: 50%;
+  margin: auto auto;
+  align-content: center;
+  padding: 5px 5px;
+}
+
+.currently-playing-div h2 {
+  text-align: center;
+}
+
+.currently-playing-div img {
+  width: 60%;
+  height:60%;
+  display: block;
+  margin: auto auto;
+}
+
+.currently-playing-div p {
+  text-align: center;
+}
+
+.currently-playing-div .divider {
+  border: 2px solid black;
+}
+
+.currently-playing-div a {
+  display: block;
+  text-align: center;
 }
