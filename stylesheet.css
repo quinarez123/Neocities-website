@@ -1,7 +1,7 @@
-
-p {
-  color: antiquewhite;
+.white {
+  color: white;
 }
+
 
 h1 {
   text-align: center;
@@ -58,7 +58,7 @@ h1 {
 
 
 .about-me-background-color {
-  background-color: lightblue;
+  background: image("images/color-bricks-background.gif");
 }
 
 .gaming-corner-background-color {
@@ -71,6 +71,10 @@ h1 {
 
 body {
   font-family: sans-serif;
+}
+
+.center-text {
+  text-align: center;
 }
 
 .notice {
@@ -157,6 +161,14 @@ blockquote {
   }
 }
 
+.about-me-main-div {
+  background-color: aqua;
+}
+
+.aqua-background {
+  background-color: aqua;
+}
+
 .chill-survey-div {
   margin-top: 40px;
   color: chocolate;
@@ -233,6 +245,29 @@ blockquote {
   display: block;
   margin: auto;
 }
+
+.white-divider {
+  border: solid 1px white;
+  margin: 10px 0;
+}
+
+.center {
+ margin: 0 auto;
+}
+
+.inline {
+  display: inline;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.solid-black-border {
+  border: solid 5px black;
+}
+
+
 
 
 
