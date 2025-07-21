@@ -1,0 +1,1 @@
+const guestbookId = document('gestbookId')

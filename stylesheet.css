@@ -249,6 +249,10 @@ blockquote {
   top: 900px;
 }
 
+.absolute-position {
+  position: absolute;
+}
+
 .flex-container {
   display: flex;
   width: fit-content;
@@ -260,6 +264,18 @@ blockquote {
   width: 25px;
 }
 
+.guestbook-div {
+  position: absolute;
+  bottom: 600px;
+  left: 60px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.guestbook-div img {
+  display: block;
+  margin: auto auto;
+}
 
 
 /*Music Zone Corner */
@@ -298,6 +314,10 @@ blockquote {
   border: solid 5px black;
 }
 
+.textarea-selector {
+  display: block;
+}
+
 .front-page-link-below-icon {
   background-color: gray;
   width: fit-content;
@@ -306,7 +326,6 @@ blockquote {
   border: dotted 5px white;
   border-radius: 10px;
 }
-
 
 
 
