@@ -1,0 +1,23 @@
+.center {
+    margin: auto auto;
+}
+
+.white-font {
+   color: white;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.currently-listening-to-div {
+    width: fit-content;
+    height: fit-content;
+}
+
+.main-div {
+    width: 90%;
+    height: fit-content;
+    border: ridge 10px green;
+    padding: 10px 10px;
+}

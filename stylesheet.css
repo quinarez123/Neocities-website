@@ -10,7 +10,7 @@ h1 {
 
 .link-div {
   border: 10px;
-  boder-radius: 30px;
+  border-radius: 30px;
   border-style: double;
   width: 50%;
   margin: auto auto;
@@ -22,7 +22,7 @@ h1 {
 
 .link-div-music {
   border: 10px;
-  boder-radius: 30px;
+  border-radius: 30px;
   border-style: double;
   width: 50%;
   margin: auto auto;
@@ -65,9 +65,6 @@ h1 {
   background: linear-gradient(to bottom right, blue, pink);
 }
 
-.music-zone-background-color {
-  background: linear-gradient(to left, gray, yellow);
-}
 
 body {
   font-family: sans-serif;
@@ -103,29 +100,18 @@ body {
   animation-iteration-count: infinite;
 }
 
-.chon-chon-div {
-  height: fit-content;
-  width: fit-content;
-  display: inline;
-  position: relative;
-  bottom:300px;
-  right: 100px;
-}
 
-.chon-chon-picture  {
- max-width: 50%;
- height: auto;
-  display: inline;
-  border-radius: 50%;
-  border: 1px solid #ddd;
-  margin-left: 60px;
-}
 
 blockquote {
   color: white;
-  font-size: 90%;f
+  font-size: 90%;
 }
 
+.music-note {
+  width: 40%;
+  display: block;
+  margin: auto auto;
+}
 
 
 .update-header {
@@ -179,29 +165,27 @@ blockquote {
   font-size: 50px;
 }
 
-.surprise-face-guy {
-  width: 500px;
-  height: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
 
 .main-page-div {
   /*background-color:darkred;*/
   background: repeat url("images/bricks-background-2.gif");
   border: ridge 10px white;
   margin: auto auto;
-  width: 50%;
-  width: 50%;
+  width: 90%;
   padding: 10px;
+  border-radius: 20px;
 }
+
+
 
 /* About me section */
 .about-me-div {
   width: 30%;
   height: 30%;
-  margin: 20px auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  margin-bottom: 50px;
 
 }
 .about-me-div p {
@@ -218,7 +202,10 @@ blockquote {
 .gaming-corner-div {
   width: 30%;
   height: 30%;
-  margin: 20px auto;
+   margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  margin-bottom: 50px;
 }
 .gaming-corner-div p {
   text-align: center;
@@ -230,27 +217,71 @@ blockquote {
   margin: auto;
 }
 
+.bookmark-gif {
+  width: 150px;
+  height: 200px;
+  display: inline;
+  position: absolute;
+  left: 40px;
+  top: 50px;
+}
+
+.www-gif {
+  position: absolute;
+  top: 950px;
+  width: 150px;
+  height: 150px;
+  left: 20px;
+  top: 900px;
+}
+
+.hot-air-ballon-gif {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 880px;
+  top:60px
+}
+
+.welcome-gif {
+  position: absolute;
+  left: 900px;
+  top: 900px;
+}
+
+.flex-container {
+  display: flex;
+  width: fit-content;
+  margin: 10px auto;
+}
+
+.flex-container img {
+  margin: 0 0;
+  width: 25px;
+}
+
+
+
 /*Music Zone Corner */
 .music-zone-div {
   width: 30%;
   height: 30%;
-  margin: auto
+   margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  margin-bottom: 50px;
 }
-.music-zone-div p {
-  text-align: center;
-}
-.music-zone-div img {
-  width: 50%;
-  height: 50%;
-  display: block;
-  margin: auto;
-}
+
+
 
 .white-divider {
   border: solid 1px white;
   margin: 10px 0;
 }
 
+.white-font {
+  color: white;
+}
 .center {
  margin: 0 auto;
 }
@@ -267,6 +298,14 @@ blockquote {
   border: solid 5px black;
 }
 
+.front-page-link-below-icon {
+  background-color: gray;
+  width: fit-content;
+  margin: 10px auto;
+  padding: 5px 5px;
+  border: dotted 5px white;
+  border-radius: 10px;
+}
 
 
 
