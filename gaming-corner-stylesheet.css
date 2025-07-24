@@ -1,0 +1,40 @@
+.background {
+    background-color: aqua;
+}
+
+.title-div {
+    display: flexbox;
+    border: solid 4px black;
+    width: 50%;
+    margin: auto auto;
+}
+
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h2 {
+    border: ridge 9px ghostwhite;
+    width: 50%;
+    margin: 5px auto;
+
+}
+
+.gaming-div {
+    margin: auto auto;
+    text-align: center;
+    border: solid 4px red;
+    font-size: 2rem;
+}
+
+img {
+    max-width: 300px;
+    margin: auto auto;
+    display: block;
+}
+
+.game-div {
+    border: solid 4px black;
+    background-color:darkgreen;
+}

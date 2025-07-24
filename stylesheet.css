@@ -228,11 +228,10 @@ blockquote {
 
 .www-gif {
   position: absolute;
-  top: 950px;
+  top: 850px;
   width: 150px;
   height: 150px;
   left: 20px;
-  top: 900px;
 }
 
 .hot-air-ballon-gif {
@@ -265,16 +264,18 @@ blockquote {
 }
 
 .guestbook-div {
-  position: absolute;
-  bottom: 600px;
-  left: 60px;
   border-radius: 10px;
-  width: fit-content;
+  max-width: fit-content;
+  display: block;
+  position:absolute;
+  top: 250px;
+
+
 }
 
 .guestbook-div img {
   display: block;
-  margin: auto auto;
+
 }
 
 
