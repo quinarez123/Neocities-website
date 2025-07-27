@@ -1,107 +1,32 @@
+/*Universal Rules*/
 .white {
   color: white;
 }
-
 
 h1 {
   text-align: center;
   color: white;
 }
-
-.link-div {
-  border: 10px;
-  border-radius: 30px;
-  border-style: double;
-  width: 50%;
-  margin: auto auto;
-  height: auto;
-  margin-bottom: 50px;
+.center-text {
+  text-align: center;
 }
 
-
-
-.link-div-music {
-  border: 10px;
-  border-radius: 30px;
-  border-style: double;
-  width: 50%;
-  margin: auto auto;
-  height: auto;
-  margin-bottom: 50px;
-}
-
-.link
-
-.link-div a:link {
-  color:antiquewhite;
-}
-
-.link-div a:hover {
-  background: blueviolet;
-}
-
-.link-div a:visited  {
-  color: chartreuse;
-}
-
+/*Beggining of page*/
 .main-page-title {
     text-align: center;
 }
-
-.front-page-link {
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-
-
 
 .about-me-background-color {
   background: image("images/color-bricks-background.gif");
 }
 
-.gaming-corner-background-color {
-  background: linear-gradient(to bottom right, blue, pink);
-}
-
-
 body {
   font-family: sans-serif;
 }
-
-.center-text {
-  text-align: center;
-}
-
-.notice {
-  text-align: center;
-  font-size: 20px;
-  color:rgb(255,255,0);
-}
-
-.notice-border {
-  height:10px;
-  margin-top:10px;
-  margin-bottom:10px;
-  background-color:rgb(255, 127, 0);
-}
-
 .marquee-text {
   font-size: 50px;
   color:rgb(255, 0 ,127)
 }
-
-
-.underconstructionmarquee {
-  animation-name:marquee;
-  animation-duration:15s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-}
-
-
-
 blockquote {
   color: white;
   font-size: 90%;
@@ -172,8 +97,6 @@ blockquote {
   border: ridge 10px white;
   margin: auto auto;
   width: 90%;
-  padding: 10px;
-  border-radius: 20px;
 }
 
 
@@ -222,30 +145,30 @@ blockquote {
   height: 200px;
   display: inline;
   position: absolute;
-  left: 40px;
-  top: 50px;
+  top: 5%;
+  left: 0%;
 }
 
 .www-gif {
   position: absolute;
-  top: 850px;
   width: 150px;
   height: 150px;
-  left: 20px;
+  top: 70%;
+  left: 0%;
 }
 
 .hot-air-ballon-gif {
   position: absolute;
   width: 150px;
   height: 150px;
-  left: 880px;
-  top:60px
+  top: 0%;
+  left: 85%;
 }
 
 .welcome-gif {
   position: absolute;
-  left: 900px;
-  top: 900px;
+  left: 85%;
+  top: 70%;
 }
 
 .absolute-position {
